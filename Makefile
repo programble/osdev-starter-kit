@@ -26,7 +26,7 @@ DFLAGS=-g -DDEBUG -O0
 
 AFLAGS=-f elf
 
-LDFLAGS=-melf_i386 -nostdlib -T linker.ld
+LDFLAGS=-melf_i386 -nostdlib -T build/linker.ld
 
 CSOURCES:=$(wildcard src/*.c)
 COBJECTS:=$(CSOURCES:%.c=%.o)
