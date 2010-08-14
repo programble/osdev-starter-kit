@@ -36,7 +36,7 @@ AOBJECTS:=$(ASOURCES:%.asm=%.ao)
 
 KERNEL=kernel.elf
 
-STAGE2=/usr/lib/grub/i386-pc/stage2_eltorito
+STAGE2=build/stage2_eltorito
 GENISOIMAGE=genisoimage
 
 ISO=osdevsk.iso
