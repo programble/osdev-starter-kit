@@ -1,5 +1,6 @@
 OS Dev Starter Kit
 ==================
+![](http://stillmaintained.com/programble/osdev-starter-kit.png)
 
 A minimal starter kit for a multiboot compliant ELF kernel.
 
